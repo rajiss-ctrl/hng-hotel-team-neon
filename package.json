@@ -1,0 +1,51 @@
+{
+  "name": "travel-booking-web-application",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --config webpack.dev.js --open",
+    "build": "webpack --config webpack.prod.js"
+  },
+  "keywords": [],
+  "author": "Deji Abiola",
+  "license": "ISC",
+  "description": "Boiler Plate webpack config for scaffolding frontend projects",
+  "dependencies": {
+    "bootstrap": "4.5.0",
+    "eslint": "6.8.0",
+    "eslint-loader": "4.0.0",
+    "jquery": "3.5.1",
+    "popper.js": "1.16.1",
+    "webpack": "^4.35.3",
+    "webpack-cli": "^3.3.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.4",
+    "@babel/plugin-transform-runtime": "7.9.0",
+    "@babel/preset-env": "^7.5.4",
+    "@types/jest": "25.2.1",
+    "autoprefixer": "9.8.0",
+    "babel-core": "6.26.3",
+    "babel-loader": "8.1.0",
+    "babel-polyfill": "6.26.0",
+    "babel-preset-es2015": "6.24.1",
+    "babel-preset-stage-0": "6.24.1",
+    "clean-webpack-plugin": "3.0.0",
+    "css-loader": "3.5.0",
+    "exports-loader": "0.7.0",
+    "file-loader": "6.0.0",
+    "html-loader": "1.1.0",
+    "html-webpack-plugin": "3.2.0",
+    "imports-loader": "0.8.0",
+    "mini-css-extract-plugin": "0.9.0",
+    "node-sass": "4.13.1",
+    "optimize-css-assets-webpack-plugin": "5.0.3",
+    "postcss-loader": "3.0.0",
+    "precss": "4.0.0",
+    "sass-loader": "8.0.2",
+    "style-loader": "1.1.3",
+    "terser-webpack-plugin": "2.3.5",
+    "webpack-dev-server": "^3.7.2",
+    "workbox-webpack-plugin": "5.1.2"
+  }
+}

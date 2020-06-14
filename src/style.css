@@ -1,0 +1,40 @@
+h2{
+	color: red;
+
+}
+section{
+	background-color: blue;
+	
+}
+.container{
+   display: grid;
+	grid-template-columns:30% 30% ;
+	margin: 5px;
+	padding: 1em;
+	
+
+}
+	
+}
+input{
+	float:left;
+    margin:5px;
+    width:100px;
+
+}
+header{
+	display: grid;
+	grid-template-columns:20% 25% 30% 30%;
+	grid-column-gap: 5em;
+}
+
+
+.wrapper > div{
+	background-color: #eee;
+	padding: 1em;
+}
+.wrapper{
+	display: grid;
+	grid-template-columns: 40% 30% 30%;
+	grid-column-gap: 1em;
+}
